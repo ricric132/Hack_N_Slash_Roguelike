@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9edc38c67b2024140b387514aae32ad0, type: 3}
+  m_Name: DeepFriedSnakeRibs
+  m_EditorClassIdentifier: 
+  name: Deep Fried Snake Ribs
+  image: {fileID: 0}
+  description: 
+  ingredients:
+  - {fileID: 11400000, guid: ac338f154a40f784ebd637d47f4f082f, type: 2}
+  - {fileID: 11400000, guid: d83ff90fe78e4aa45a38ee26a1812629, type: 2}
+  amounts: 0100000001000000
+  onHit: 0
+  onKill: 0
+  onTakeDamage: 1
