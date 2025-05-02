@@ -8,15 +8,25 @@ It is not complete and is still in its experimental phase without systems being 
 
 ## Project Contents:
 ### Player Character
-A fully functioning topdown character controller with attack combos and animations
-
-
+- A fully functioning topdown character controller with attack combos and animations
+- Takes damage with camera recoil
+- Visual and sound effects for walking and attacking
 
 ### Enemies: 
 
-a ranged enemy modelled after a green pea
+A ranged enemy modelled after a green pea
 - Shoots bursts of peas when the player is far, and switchs to a cone-spread blast when player is near
 
+A melee enemy moddeled after a cabbage 
+- Charges up and rolls at the player in a straight line, like a charge
 
-1 boss enemy
+Boss enemy modelled after a chicken/pheonix 
+Powered/Flying Phase
+- Flys across the combat area
+- Summons flaming tornados that drift around the combat area
+- Does bombing runs breathing fire in a straight path
+Tired/Walking phase
+- Combo spining slash attack
+- Tail whip attack
+- Leap at the player
 
