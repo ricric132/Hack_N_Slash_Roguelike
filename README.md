@@ -6,12 +6,6 @@ This was a game prototype created for a grade 10 school project with 3 peers. It
 
 It is not complete and is still in its experimental phase without systems being properly connected and still in the form of modules.
 
-## Images:
-![Default Enemies](/SmallMobs.png)
-![Boss](/BossNormal.png)
-![Boss Aura](/BossTransition.png)
-![Boss Fly](/BossFly.png)
-
 ## Project Contents:
 ### Player Character
 - A fully functioning topdown character controller with attack combos and animations
@@ -49,4 +43,10 @@ Though I do not indent on continueing this project, some features I was planning
 - Hunting/tracking mechanics
 - Proper menues
 - Story
+
+## Images:
+![Default Enemies](/SmallMobs.png)
+![Boss](/BossNormal.png)
+![Boss Aura](/BossTransition.png)
+![Boss Fly](/BossFly.png)
 
