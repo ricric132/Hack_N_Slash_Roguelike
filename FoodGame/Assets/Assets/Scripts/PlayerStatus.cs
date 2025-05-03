@@ -51,6 +51,7 @@ public class PlayerStatus : MonoBehaviour
         }
         playerHealth -= damage;
     }
+
     private IEnumerator SFXCooldown()
     {
         yield return new WaitForSeconds(2.0f); 

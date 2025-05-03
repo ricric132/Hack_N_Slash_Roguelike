@@ -148,9 +148,11 @@ public class BirbScript : MonoBehaviour
             //RetreatStateOnUpdate();
 
             //GamejamDuedateTemp
-            Destroy(gameObject);
-            Time.timeScale = 0; // Pause the game
-            pasueUI.SetActive(true);
+            //Destroy(gameObject);
+            //Time.timeScale = 0; // Pause the game
+            //pasueUI.SetActive(true);
+            RetreatStateOnUpdate();
+
         }
 
         if(currentState == State.Grounded){
@@ -753,7 +755,7 @@ public class BirbScript : MonoBehaviour
 
 
     public void TakeDamage(float damage){
-        if(currentState == State.Charging || currentState == State.Flight){
+        if(currentState == State.Charging || currentState == State.Flight || currentState == State.Retreating){
             return;
         }
         currentHP -= damage;
