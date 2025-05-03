@@ -36,3 +36,17 @@ Tired/Walking phase
 - Tail whip attack
 - Leap at the player
 
+System frameworks for resource collection and abilities/perks:
+- Keeps track of player inventory and loot from mob drops
+- Open cooking menu with cookbook UI to cook meals from ingredients found
+- 1 ability added that summons small tomatoes that jump on enemies
+
+## Future plans
+
+Though I do not indent on continueing this project, some features I was planning to add were:
+- More enemies and recipes that gave abilities that were similiar to the mobs that were the source of the ingredients
+- Natural wildlife ecosystem for the enemies so they could wonder around and interact with eachother, simulating real life wildlife
+- Hunting/tracking mechanics
+- Proper menues
+- Story
+
